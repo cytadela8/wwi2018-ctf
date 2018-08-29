@@ -1,0 +1,1 @@
+openssl enc -e -aes-128-ecb -in flag.bmp -out flag.data -k awelkijwerjlkarewdkmjlewarmjk -nosalt

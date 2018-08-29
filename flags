@@ -1,0 +1,25 @@
+beginning: CTF{8e9iNnIn9_0F_50mEThIN9_9Re@!}
+
+ecb: CTF{SECURE_MODE}   # case insensitive
+
+dron:
+    flag1: CTF{K33p_601n6_fUr7h3r}
+    flag2: CTF{1s_Th1S_th3_f1N4l_R00m?}
+    final: CTF{IN_THE_DARKNESS_}   # case insensitive
+
+fizyczne:
+    flag1: CTF{d0N7_347_m3_:c}
+    flag2: CTF{1'm_yUMmy_;)}
+    flag3: CTF{17'5_50_C0Ld_h3R3!}
+    flag4: CTF{y0u_AR3_83Au71FUl!:P}
+    flag5: CTF{y0U_4r3_7h3_B3S7!}
+
+glebokie_ukrycie: CTF{MAriU52_Lu8i_ma5ł0}
+
+matrioszka: FLAG{the_more_you_compress_a_file_the_less_space_it_takes}
+
+middle_endian: CTF{7h1s_1S_MuR1cA}
+
+pwn: CTF{l177l3_b4bypwn}
+
+bash_injection: CTF{p1N6_15_mUCh_54f3}

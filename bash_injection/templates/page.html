@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+body {
+background-color: green;
+color: chartreuse;
+}
+input {
+background-color: hotpink;
+color: bisque;
+}
+</style>
+</head>
+<center>
+<marquee direction="down" style="height:100vh">
+<marquee><h1 style="text-color:hotpink"> PING TOOL </h1></marquee>
+<form action="" method="post">
+Host to test: <input type="text" name="host"> <br>
+{% if message != "" %}
+Result: {{ message }} <br>
+{% endif %}
+<input type="submit">
+</form>
+</marquee>
+</center>
+</html>

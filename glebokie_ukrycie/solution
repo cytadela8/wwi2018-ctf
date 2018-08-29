@@ -1,0 +1,7 @@
+Dostajemy adres serwera z panelem logowanie.
+Po próbie otrzymania podstrony /.git otrzymujemy error Forbidden (nie Not found jak dla innych ścieżek).
+Okazuje się, że jedynie listowanie plików jest zablokowane na serwerze da się natomiast pobierać pliki jeden po jednemu.
+Pobieramy kilka podstawowych plików o znanych ścieżkach i poznajemy hash brancha master.
+Pobieramy plik commitu na który wskazuje master i wspomagając się poleceniem "git cat-file" pobieramy zawartość commitu i pozostałe, czyli jeszcze jeden commit.
+Poznajemy w ten sposób dwie wersje skryptu .php działającego na stronie nowsza wersja stosuje sól co utrudnia złamanie hasha.
+Jednak jak się okazuje stara wersja zawiera hash tego samego hasła i proste wpisanie w google hasha zwraca poprawne hasło do logowania.
