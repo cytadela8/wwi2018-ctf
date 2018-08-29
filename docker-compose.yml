@@ -14,7 +14,7 @@ services:
     expose:
       - 9000
     ports:
-      - "10.0.13.38:1337:9000"
+      - "1000:9000"
 
   drone2:
     build: ./drone2
@@ -24,7 +24,7 @@ services:
     expose:
       - 9000
     ports:
-      - "10.0.13.38:1338:9000"
+      - "1001:9000"
 
   pwn:
     build: ./pwn
@@ -37,29 +37,25 @@ services:
     expose:
       - 9000
     ports:
-      - "10.0.13.39:1337:9000"
+      - "1002:9000"
 
   aes:
     build: ./aes_ecb_text
     expose:
       - 9000
     ports:
-      - "10.0.13.40:1337:9000"
+      - "1003:9000"
 
   bash_injection:
     build: ./bash_injection
     expose:
       - 5000
     ports:
-      - "10.0.13.41:1337:5000"
+      - "1004:5000"
 
   glebokie_ukrycie:
     build: ./glebokie_ukrycie
     expose:
       - 80
     ports:
-      - "10.0.13.42:1337:80"
-
-volumes:
-  ctfd_files:
-  logs:
+      - "1005:80"
