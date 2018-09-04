@@ -5,6 +5,7 @@ services:
 
   nsjail:
     build: nsjail
+    image: nsjail
 
   drone:
     build: ./drone
