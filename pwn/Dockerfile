@@ -1,4 +1,4 @@
-FROM wwi2018_nsjail
+FROM nsjail
 
 RUN apt-get update --fix-missing && \
     apt-get -y upgrade
